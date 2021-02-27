@@ -1,0 +1,4 @@
+*.tif
+*.json
+*.h5
+/Lung1/logs/

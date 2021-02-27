@@ -1,0 +1,18 @@
+Usage: import the module (see Jupyter notebooks for examples), or run from
+       the command line as such:
+
+    # Train a new model starting from pre-trained COCO weights
+    python lung.py train --dataset=../../datasets/lung --weights=coco
+
+    # Resume training a model that you had trained earlier
+    python lung.py train --dataset=../../datasets/lung --weights=last
+
+    # Train a new model starting from ImageNet weights
+    python lung.py train --dataset=../../datasets/lung --weights=imagenet
+
+    # Apply color splash to an image
+    python lung.py splash --weights=../../mask_rcnn_lung.h5 --image=<URL or path to file>
+
+    # Apply color splash to video using the last weights you trained
+    python lung.py splash --weights=last --video=<URL or path to file>
+"""
