@@ -1,13 +1,15 @@
+# FPNplus-Mask-R-CNN
+
 Wrote a paper accepted by ISICDM 2020 as the first author.
 
 link: https://dl.acm.org/doi/fullHtml/10.1145/3451421.3451461
 
-abstract
+Abstract
 ----------------------------------------------------------------------------
 In recent years, the number of lung cancer patients has continued to increase. In the process of detecting lung cancer, accurate segmentation of lung parenchyma plays a key role. In this paper, we proposed a method of lung parenchyma segmentation based on FPN++Mask R-CNN neural network model. The model improved original Mask R-CNN networks and optimized the structure of FPN (Feature Pyramid Networks), which is the feature extraction model of Mask R-CNN, by expanding the scale and level of FPN to fuse and extract more picture feature information from different levels. The experimental results show that compared with original Mask R-CNN models, FPN++Mask R-CNN demonstrates better segmentation results.
 
 -----------------------------------------------------------------------------
-# FPNplus-Mask-R-CNN
+
 对Mask R-CNN网络的FPN模块进行结构优化，提出了一个新的神经网络模型，命名为FPN++Mask R-CNN
 
 核心改动模块：FPN(Feature Pyramid Networks)
